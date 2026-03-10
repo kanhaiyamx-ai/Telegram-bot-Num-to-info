@@ -1,0 +1,28 @@
+{
+  "name": "number-lookup-bot",
+  "version": "1.0.0",
+  "description": "Telegram Number Lookup Bot with force-join verification",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node scripts/local-polling.js",
+    "dev": "node scripts/local-polling.js",
+    "set-webhook": "node scripts/set-webhook.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "number-lookup",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT"
+}
