@@ -1,0 +1,25 @@
+{
+  "name": "number-lookup-bot",
+  "version": "3.0.0",
+  "description": "Fast Telegram Number Lookup Bot with caching and rate limiting",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node scripts/local-polling.js",
+    "dev": "node scripts/local-polling.js",
+    "set-webhook": "node scripts/set-webhook.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "vercel",
+    "serverless",
+    "caching"
+  ],
+  "license": "MIT"
+}
